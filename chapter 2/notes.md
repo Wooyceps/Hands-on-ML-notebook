@@ -10,4 +10,12 @@ Poniższa lista stanowi pomoc podczas tworzenia projektów uczenia maszynowego. 
 7. Zaprezentowanie rozwiązania.
 8. Uruchomienie, monitorowanie i utrzymywanie systemu.
 
-# STRONA 65
+# RMSE
+
+Średni błąd kwadratowy (RMSE) to miara odległości pomiędzy prognozami modelu a rzeczywistymi wartościami. Im niższa wartość RMSE, tym lepszy model.
+
+Używany głównie do zadań regresji, RMSE jest miarą odchylenia standardowego reszt (błędów) modelu. Wzór na RMSE wygląda następująco:
+
+$$ RMSE(X, h) = \sqrt{\frac{1}{m} \sum_{i=1}^{m} (h(x^{(i)}) - y^{(i)})^2} $$
+
+
